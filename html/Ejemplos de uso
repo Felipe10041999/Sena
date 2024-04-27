@@ -232,9 +232,9 @@
                                 <th>Enero</th><th>Febrero</th><th>Marzo</th>
                             </tr>
                             <tr align="center">
-                                <td>Todas las celdas <br> alineadas centro</td>
-                                <td>celda 2 otra vez <br> centrada</td>
-                                <td>otra celda en el  <br>centro</td>
+                                <td>Todas las <br> celdas  alineadas <br> centro</td>
+                                <td>Celda 2 otra vez <br> centrada</td>
+                                <td>Otra celda en el  <br>centro</td>
                             </tr>
                             <tr>
                                 <td align="right">Derecha</td> 
@@ -242,5 +242,31 @@
                                 <td>Izquierda</td>
                             </tr>
                         </table><p>
+
+                        <table border="3">
+                            <th>Enero</th> <th>Febrero</th><th>Marzo</th>
+                            <tr valign="top">
+                            <td>Todas las celdas arriba </td>
+                            <td>esta celda <br> 2 </td>
+                            <td>celda 3</td>
+                        </tr>
+                        <tr>
+                            <td valign="top"> Alineado arriba</td>
+                            <td valign="bottom"> Alineado abajo</td>
+                            <th> por defecto <br> todo en el centro </th>
+                        </tr>
+                        </table><p>
+                            
+                        <!--Actividad: 
+                            1. Clone la pagina siguiente, puede cambiar las imagenes el video y la musica
+                            2. Realice:
+
+                        Ejercicio: en la parte de abajo del ejercicio anterior cree un horario de clase con las siguientes caracteristicas:
+                        1. 6 horas de clase por dia mas descanso, el descanso debe esta en una fila completa unida en la mitad del horario
+                        2. Cada materia de un color de letra y color de fondo,las materias que se repiten deben estar del mismo color 
+                        3.Los titulos deben estar centrados y en negrita
+                        4.La tabla debe tener bordes de color 
+                        5. La tabla debe tener espacios personalizados entre los bordes de la tabla y los bordes y el contenido de la celda    -->
+                        
     </body>
 </html>
