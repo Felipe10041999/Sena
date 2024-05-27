@@ -1,0 +1,125 @@
+<html>
+    <title>Observador</title>
+    <link rel="stylesheet" href="observadorcss.css">
+    <head><meta http-equiv="Contect-Type" Contect="text/html; charset=utf8"/></head>
+    <body>
+        <div class="foto1" align="left"><img src="imagenes/JJCM.png" width="150" height="150" > </div> 
+        <div align="right"> </div> 
+        <div class="foto2" align="right"> <img src="imagenes/Deadpoolfoto.jpg" width="200" height="200" ></div>
+        <div  class="encabezado" ><font > <i>Republica de colombia<br>
+                            Secretaria de educacion<br>
+                           <b> Centro educativo "JJCM"</i></b><br></font>   
+        </div>
+    <form>
+        <div align="center" class="contenido"  >
+            <h1>Observador del estudiante</h1>
+                <table  bgcolor="0473F1 "border="2" bordercolor="yellowgreen" width="99%" cellspacing="10" cellpadding="0">
+            <h2> Datos personales</h2>
+            <tr heigth="300px">
+            <th  bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+            Primer nombre <input type="text" name="nombre1"> 
+            Segundo nombre <input type="text" name="nombre2">
+            Primer apellido <input type="text" name="apellido1">
+            Segundo apellido <input type="text" name="apellido2"><br></th> 
+        </tr>
+                <tr>
+            <td bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+            Curso <select name="curso" >
+                    <option> Primero </option>
+                    <option> Segundo </option>
+                    <option> Tercero </option>
+                    <option> Cuarto </option>
+                    <option> Quinto </option>
+                    <option> Sexto </option>
+                    <option> Septimo </option>
+                    <option> Octavo </option>
+                    <option> Noveno </option>
+                    <option> Decimo </option>
+                    <option> Once</option>
+                </select>
+            Fecha de nacimiento <input type="date" name="fechan">
+            Edad <input date="number" name="edad">
+            Lugar de nacimiento<input type="text" name="lugar">
+            Sexo <select name="sexo">
+                <option>Femenino</option>
+                <option>Masculino</option>
+            </select></td></font>
+        </tr>
+        <tr>
+            <td  align="just" bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+           Tipo de documento <select name="id">
+                <option> Registro civil </option>
+                <option> Tarjeta de identidad </option>
+                <option> Cedula </option>
+            </select>
+            Numero de documento <input type="number" name="numerod">
+            Rh <select name="rh">
+                <option>O+</option>
+                <option>O-</option>
+                <option>A+</option>
+                <option>A-</option>
+                <option>B+</option>
+                <option>B-</option>
+                <option>AB+</option>
+                <option>AB-</option>
+            </select>
+            Direccion <input type="text" name="direccion">
+            Telefono <input date="number" name="celular"><br></font></td><br>
+        </tr>
+        </table>
+    
+        
+            <center><br><br><h2>Datos del acudiente</h2> <br> <br></center>
+           <table   bgcolor="0473F1 "border="2" bordercolor="yellowgreen" width="99%" cellspacing="10" cellpadding="0">
+         <tr heigth="300px">
+            <td  align="just" bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+            Primer nombre <input type="text" name="nombre1">
+            Segundo nombre <input type="text" name="nombre2">
+            Primer apellido <input type="text" name="apellido1">
+            Segundo apellido <input type="text" name="apellido2"> </td>
+        </tr>
+            <td  align="just" bgcolor="greenyellow"><font size="1.5" color="green" face="arial black">
+            Ocupacion <input type="text" name="ocupacion">
+            Telefono <input type="number" name="telefon">
+            Parentesco <select>
+                <option> Madre </option>
+                <option> Padre </option>
+                <option> Abuelo(a)</option>
+                <option> tio(a)</option>
+                <option> Hermano(a) </option>
+                <option> Otro </option> 
+            </select>
+            Tipo de documento <select name="cc">
+                <option> Cedula </option>
+                <option> Pasaporte </option>
+                <option> Cedula de extranjeria </option>
+            </select><br></td>
+            <tr>
+          <td align="just" bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+             Nº documento <input type="number" name="numerod">   </font></td></tr>
+        </div>
+        </table>
+        
+            <br><br><br><br>
+            <h2> <center>Observacion<br><br></center> </h2>
+        
+        <table  bgcolor="0473F1 "border="5" bordercolor="yellowgreen" width="99%" cellspacing="10" cellpadding="10">
+            <tr>
+                <td align="just" bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+                    Fecha de observacion <input type="date" name="obs"></font></td>
+                    <td  rowspan="3">  Observacion: <br><br> <textarea cols="90" rows="10" name="Observacion" align="left">
+                        Escriba aqui la observacion al estudiante</textarea></td>
+                    </tr>
+             <tr>
+            <td bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+            Adjuntar archivo adicional <br><br><input type="file" name="Archivo"></font><br></td>
+        </tr>
+        <br><td align="center" bgcolor="greenyellow"><font size="1" color="green" face="arial black">
+            Enviar:  <input type="submit" value="Enviar">
+            Borrar: <input type="reset" value="Borrar"> </th><br>
+        </table>
+    </div>
+    </form>
+       
+    </body>
+</html>
