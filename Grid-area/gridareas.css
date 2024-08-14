@@ -1,0 +1,236 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;    
+}
+
+#container{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-areas: "header header header header header  "
+    "sec1 sec1 sec2 sec2 sec2"
+    "pie1 pie1 pie1 pie1 pie1 ";
+    width: 90%;
+    height: 900px;
+    margin: 0px auto;
+    gap: 25px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-image: radial-gradient(circle at 50% -2.76%, #fbffff 0, #ecfffd 7.14%, #dafffa 14.29%, #c6fff7 21.43%, #aefff5 28.57%, #92fff3 35.71%, #70fcf2 42.86%, #3cf2f2 50%, #00e7f3 57.14%, #00ddf6 64.29%, #00d4fa 71.43%, #00cbff 78.57%, #00c2ff 85.71%, #00baff 92.86%, #00b3ff 100%);
+}
+
+#header{
+   grid-area: header;
+    color: white;
+    display: flex;
+    justify-content: center;
+    border: 2px solid #050505;
+    margin-bottom: 0px;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+}
+
+#menu{
+    line-height: 60px;
+    border: 2px solid #050505;
+    width: 95%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+#menu ul{
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    list-style: none; /*quitar viñetas*/
+}
+
+#menu ul a:hover{
+    background: #aaa9a9;
+    font-size: 20px;
+    color: white;
+}
+
+#sec1{
+    border: 2px solid #020302;
+    grid-area: sec1;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-areas: "m m "
+    "l l";
+    gap:20px;
+}
+
+#menu1{
+    grid-area: m;
+    line-height: 60px;
+    border: 2px solid #050505;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 15%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+#menu1 ul{
+    list-style: none; /*quitar viñetas*/
+}
+
+#menu1 ul a:hover{
+    background: #aaa9a9;
+    font-size: 20px;
+    color: white;
+}
+
+#lateral{
+    grid-area: l;
+    border: 2px solid #050505;
+    width: 85%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+#header1{
+    border: 2px solid #050505;
+    width: 90%;
+    margin: 0px auto;
+    grid-area: titulo;
+    margin-top: 10%;
+
+}
+
+#art{
+    border: 2px solid #050505;
+    width: 90%;
+    margin: 0px auto;
+    grid-area: art;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 50px 30px 50px;
+    grid-template-areas: "header2 header2 header2 header2"
+    "div1 div1 div1 lateral1"
+    "p p p p";
+    padding-top: 7%;
+
+
+}
+ 
+#header2{
+    border: 2px solid black;
+    grid-area: header2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 90%;
+    margin: 0px auto;
+    
+}
+
+#div1{
+    border: 2px solid black;
+    grid-area: div1;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+#lateral1{
+    grid-area: lateral1;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 30px;
+}
+
+#p{
+    border: 2px solid black;
+    grid-area: p;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+}
+
+#piepagina{
+    border: 2px solid black;
+    width: 90%;
+    margin: 0px auto;
+    grid-area: pie;
+    margin-bottom: 20px;
+    line-height: 40px;
+    font-weight: bold;
+
+}
+
+#art1{
+    border: 2px solid black;
+    width: 90%;
+    margin: 0px auto;
+    grid-area: art1;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 50px 30px 50px;
+    grid-template-areas: "h h h"
+    "d d d"
+    "p1 p1 p1";
+    padding-top: 7%;
+}
+#header3{
+    grid-area: h;
+    border: 2px solid black;
+    width: 90%;
+    margin: 0px auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#div2{
+    grid-area: d;
+    border: 2px solid black;
+    width: 90%;
+    margin: 0px auto;
+    font-weight: bold;
+}
+
+#p1{
+    border: 2px solid black;
+    grid-area: p1;
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 10px;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#sec2{
+    border: 2px solid #030303;
+    grid-area: sec2;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: "titulo titulo titulo titulo"
+    "art art art art"
+    "art1 art1 art1 art1 "
+    "pie pie pie pie";
+    gap: 20px;
+}
+
+#piepagina1{
+    border: 2px solid #050505;
+    grid-area: pie1;
+    font-weight: bold;
+}

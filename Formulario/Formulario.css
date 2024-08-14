@@ -1,0 +1,85 @@
+*{
+  text-decoration: none;
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
+}
+#general{
+    background: rgb(255, 255, 255);
+    margin: 0 auto;
+}
+#titulo_p{
+    display: flex;
+    background:white;
+    display: flex;
+    flex-direction: row;
+    margin: 0 auto;
+    height: 300px;
+    width: 70%;
+    border-radius: 15px;
+    border: 1px solid black;
+    box-shadow:4px  0px 0px silver,
+    0px  4px 0px silver,
+    -1px  0px 0px black,
+    0px -1px 0px black;
+}
+#logo1{
+
+    margin-right: 0px ;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+#titulo{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: gray;
+}
+#titulo h3{
+    display: flex;
+    font-size: 35px;
+
+}
+#titulo h1{
+    display: flex;
+    margin: 10px;
+    font-size: 60px;
+    
+
+}
+#logo2{
+    margin-top: 10px;
+}
+#menu{
+    display: flex;
+    flex-direction: row;
+    border: 2px solid silver;
+    width: 70%;
+    height: 50px;
+    margin: 0 auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    background: silver;
+    box-shadow: 5px  0px 0px black,
+    0px  5px 0px black,
+    -1px  0px 0px black,
+    0px -2px 0px gray;
+}
+#menu ul {
+    display:flex;
+    flex-direction: row;
+    padding: 5px;
+}
+#menu ul li{
+    display: flex;
+    margin-left: 75%;
+    justify-content: center;
+    align-items: center;
+}
+#menu ul li a{
+    color: blueviolet;
+}
+#menu ul li a:hover{
+    background: gold;
+}

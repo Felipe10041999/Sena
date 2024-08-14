@@ -1,0 +1,240 @@
+*{
+    text-decoration: none;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    list-style: none;
+    color: black;
+    text-shadow: 1px  0px 0px red,
+                0px  1px 0px red,
+                -1px  0px 0px red,
+                0px -1px 0px red ;
+}
+body{
+    background: linear-gradient(  black ,red);
+}
+
+#container{
+    width: 90%; 
+    height: auto ;
+    margin: 0 auto;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+#header{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    line-height: 90px;
+    text-align: center;
+    margin-bottom: 20px;
+    background: linear-gradient(black 5px,red);
+    color: rgb(34, 6, 3);
+}
+
+#menu{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    line-height: 40px;
+    margin-bottom: 20px;
+    background:radial-gradient(circle 800px, red,black);
+}
+
+#menu > ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    
+}
+
+#menu a{
+    color:black;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 300ms;
+
+
+}
+
+#menu a:hover{
+    background: #ccc;
+    color: white;
+}
+
+#super{
+    display: flex;
+
+}
+
+#menu1{
+    width: 90%;
+    margin: auto;
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    line-height: 40px;
+    margin-bottom: 20px;
+    text-align: center;
+
+}
+
+
+#menu1 a{
+    color: black;
+    text-transform: uppercase;
+    padding: 10px;
+    transition: all 300ms;
+    
+
+}
+
+#menu1 a:hover{
+    background: #ccc;
+    color: white;
+}
+
+#sec1{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    flex-basis: 80%;
+    text-align: center;
+    margin-right: 10px;
+    background: radial-gradient(circle 620px, red,black);
+    color: black;
+    
+}
+
+#sec2{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    display: flex;
+    flex-flow:row wrap;
+    text-align: center;
+    line-height: 50px;
+    background:radial-gradient(circle 620px, red,black);
+}
+#menu1{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    margin-top: 80px;
+    background: radial-gradient(circle 320px, red,black);
+}
+
+#lateral{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    line-height: 190px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 50%;
+    text-align: center;
+    background: radial-gradient(circle 200px, red,black);
+}
+
+#header1{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    text-align: center;
+    width: 90%;
+    margin:0px auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background:radial-gradient(circle 350px, red,black);
+    
+}
+
+
+#header2{
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    margin:0px auto;
+    margin-top: 60px;
+    background: radial-gradient(circle 350px, red,black);
+  
+}
+
+#art{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 20px;
+    column-gap: 80px;
+    font-weight: bold;
+    background: radial-gradient(circle 500px, red,black);
+}
+
+#art1{
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    width: 90%;
+    margin: 0px auto;
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    background: radial-gradient(circle 500px, red,black);
+}
+#div1{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    margin-bottom: 10px;
+    width: 70%;
+    margin: 0px auto;
+    background: radial-gradient(circle 120px, red,black);
+}
+#div2{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    margin-bottom: 10px;
+    width: 90%;
+    margin: 0px auto;
+    font-weight: bold;
+    background:radial-gradient(circle 160px, red,black);
+}
+#p1{
+    font-weight: bold;
+    background: radial-gradient(circle 100px, red,black);
+}
+
+#div3{
+    display: flex;
+    width: 90%;
+    margin: 0px auto;
+    
+}
+#lateral1{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    margin-bottom: 10px;
+    width: 40%;
+    margin: 0px auto;
+    margin-left: 10px;
+    background: radial-gradient(circle 100px, red,black);
+}
+
+p{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    width: 90%;
+    margin: 0px auto;
+    margin-bottom: 30px;
+    line-height: 40px;
+    font-weight: bold;
+    background: radial-gradient(circle 190px, red,black);
+}
+
+#piepagina{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+    margin-top: 20px;
+   margin-bottom: 20px;
+   width: 90%;
+   margin: auto;
+   font-weight: bold;
+   background: radial-gradient(circle 400px, red,black);
+}
+
+#piepagina1{
+    border: 1px solid rgba(5, 5, 5, 0.8);
+   width: 90%;
+   margin: auto;
+   line-height: 70px;
+   text-align: center;
+   font-weight: bold;
+   margin-bottom: 20px;
+   background: radial-gradient(circle 450px, red,black);
+}
+
