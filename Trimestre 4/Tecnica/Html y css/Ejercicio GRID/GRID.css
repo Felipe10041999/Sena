@@ -1,0 +1,283 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    text-decoration: none;
+}
+body{   
+    height: 1000px;
+    background: radial-gradient(black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black,white,black 80%);
+}
+#encabezado{
+    display: grid;
+    grid-template-rows: repeat(2, 1fr);
+    border: 2px solid black;
+    height: 20%;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 5%;
+    background: linear-gradient(black 40%,white);
+}
+#encabezado{
+    align-items: center;
+    color: white;
+}
+#menu{
+    width: 90%;
+    background: linear-gradient(90deg,black 70%, white);
+}
+#menu ul{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 50px;
+    border: 1px solid black;
+    padding: 3px;
+    list-style: none;
+}
+#menu ul li a{
+    color: white;
+}#menu ul li a:hover{
+    color: gray;
+    
+}
+#contenido-todo{
+    display: grid;
+    grid-template-columns: minmax(30%,30%) 1fr;
+    width: 90%;
+    height: 600px;
+    
+    margin-top: 15px;
+}
+#barra_lateral{
+    display: grid;
+    grid-template-rows:  10% 50% 30%;
+    border: 2px solid black;
+    width: 100%;
+    margin-left: 0%;
+    background: linear-gradient(black, white);
+}
+#barra_lateral h3{
+    margin-top: 4%;
+    font-size: 170%;
+    color: white;
+    }
+#contenido_barra{
+    display: grid;
+    border: 1px solid gray;
+    width: 85%;
+    margin-top: 0%;
+    background: linear-gradient(45deg,black 60%,white);
+}
+#contenido_barra ul{
+    list-style: none;
+    display: grid;
+    grid-template-columns: 3;
+    width: 100%;
+    height: 80%;
+    align-items: center;
+    font-size: 150%;
+}
+#contenido_barra ul li{
+    display: grid;
+    width: 85%;
+    justify-content: left;
+}
+#contenido_barra ul li a{
+    color: white;
+}
+#contenido_barra ul li a:hover{
+    color: gray;
+}
+#articulo{
+    
+    display: grid;
+    border: 1px solid gray;
+    margin-top: 6%;
+    width: 85%;
+    background: radial-gradient(black 70%,white);
+}
+#articulo h4{
+    display: grid;
+    color: white;
+    align-items: center;
+    font-size: 150%;
+}
+
+#contenido{
+    display: grid;
+    border: 2px solid black;
+    grid-template-rows: repeat(5,1fr);
+    width: 97%;
+    margin-left: 2.8%;
+    background: linear-gradient(black, white);
+}
+#contenido h3{
+    display: grid;
+    height: 35%;
+    width: 90%;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    margin-top: 0%;
+    color: white;
+    
+}
+#titulo_contenido{
+    display: grid;
+    border: 1px solid black;
+    width: 90%;
+    height: 50%;
+    margin-top: -12%;
+    justify-content: center;
+    align-items: center;
+    font-size: 150%;
+    background: linear-gradient(45deg,black 60%,white);
+    color: white;
+}
+#articul{
+    display: grid;
+    grid-template-rows:repeat(4, 1fr);
+    border: 1px solid black;
+    width: 90%;
+    height: 180%;
+    margin-top: -16%;
+    background: linear-gradient(45deg,black 60%,white);
+    color: white;
+}
+#articul h3{
+    display: grid;
+    height: 45%;
+    font-size: 120%;  
+    align-items: center;
+    margin-top: 2%;
+    
+}
+#articulo_contenido{
+    display: grid;
+    border: 1px solid gray;
+    height: 80%;
+    width: 90%;
+    font-size: 120%;  
+    align-items: center;
+    margin-top: -2%;
+    background: radial-gradient(black 70%,white);
+}
+#seccion2{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    height: 80%;
+    width: 90%;
+    font-size: 120%;
+    align-items: center;
+    margin-top: -1.5%;
+    
+}
+#contenido_articulo{
+    display: grid;
+    border: 1px solid gray;
+    width: 120%;
+    height: 100%;
+    align-items: center;
+    font-size: 140%;
+    background: radial-gradient(black 70%,white);
+}
+#contenido_articulo2{
+    display: grid;
+    border: 1px solid gray;
+    width: 75%;
+    height: 100%;
+    margin-right: 0%;
+    align-items: center;
+    font-size: 140%;
+    background: radial-gradient(black 70%,white);
+}
+#parrafo_articulo{
+    display: grid;
+    border: 1px solid gray;
+    width: 90%;
+    height: 80%;
+    margin-top: -1%;
+    align-items: center;
+    font-size: 140%;
+    background: radial-gradient(black 70%,white);
+}
+#articulo2{
+    display: grid;
+    grid-template-rows:repeat(4, 1fr);
+    border: 1px solid black;
+    width: 90%;
+    height: 140%;
+    margin-top: 3%;
+    background: linear-gradient(45deg,black 60%,white);
+    color: white;
+}
+#articulo2 h4{
+    margin-top: 1%;
+    display: grid;
+    height: 45%;
+    font-size: 120%;  
+    align-items: center;
+}
+#titulo_articulo2{
+    display: grid;
+    border: 1px solid gray;
+    height: 80%;
+    width: 90%;
+    font-size: 120%;  
+    align-items: center;
+    margin-top: -2%;
+    background: radial-gradient(black 70%,white);
+    font-size: 140%;
+}
+#contenido_articulo3{
+    display: grid;
+    border: 1px solid gray;
+    height: 80%;
+    width: 90%;
+    font-size: 120%;  
+    align-items: center;
+    margin-top: -2%;
+    background: radial-gradient(black 70%,white);
+    font-size: 180%;
+}
+#parrafo_articulo2{
+    display: grid;
+    border: 1px solid gray;
+    height: 80%;
+    width: 90%;
+    font-size: 120%;  
+    justify-content: center;
+    align-items: center;
+    margin-top: -2%;
+    background: radial-gradient(black 70%,white);
+    font-size: 160%;
+}
+#pie_contenido{
+    display: grid;
+    border: 1px solid black;
+    width: 90%;
+    height: 20%;
+    margin-top:12%;
+    background: linear-gradient(45deg,black 60%,white);
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+#pie_general{
+    display: grid;
+    grid-template-rows: 50px;
+    border: 2px solid black;
+    width: 90%;
+    height: 80%;
+    margin-top:12%;
+    background: linear-gradient(45deg,black 60%,white);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+}
+
+
+
+
+
+

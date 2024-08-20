@@ -1,0 +1,238 @@
+@media only screen and (max-width:1024px) {
+    *{
+        margin: 0;
+        list-style: none;
+    }
+    body{
+        max-width: 1024px;
+        background: red;
+    }
+    
+    #header{
+        display: flex;
+        flex-direction: row;
+        width: 90%;
+        height: 6em;
+        margin: 0 auto;
+        gap: 2%;
+        margin-top: 5%;
+    }
+    #header h1{
+        width: 80%;
+        background: orange;
+        height: 100%;
+        border: 1px solid black;
+        
+    }
+    #header h2{
+        width: 80%;
+        background: orange;
+        height: 100%;
+        border: 1px solid black;
+    }
+    #articulo{
+        background: lawngreen;
+        height: 18em;
+        border: 1px solid black;
+        margin: 0 auto;
+        width: 90%;
+        margin-top: 5%;
+    }
+    #articulos{   
+        width: 90%;
+        margin: 0 auto;
+        height: 19em;
+        margin-top: 5%;
+    }
+    #articulos ul{
+        display: flex;
+        flex-direction: row;
+        margin-left: 0%;
+        gap:8%;
+    }
+    #articulos ul li{
+        border: 1px solid black;
+        width: 35%;
+        background: blue;
+        height: 17em;
+        margin-left: -5%;
+    }
+    #articulos2{
+        width: 90%;
+        margin: 0 auto;
+    }
+    #articulos2 ul{
+        display: flex;
+        flex-direction: row;
+        
+        margin-left: -4.5%;
+        gap: 4% ;
+    }
+    #articulos2 ul li{  
+        border: 1px solid black;
+        width: 22%;
+        height: 6em;
+        background: silver;
+        
+    }
+
+}
+@media only screen and (max-width: 768px) and (min-width: 321px){
+    *{
+        margin: 0;
+        list-style: none;
+    }
+    body{
+        max-width: 768px;
+        background: red;
+    }
+    
+    #header{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 6em;
+        margin-top: 5%;
+        
+    }
+    #header h1{
+        width: 100%;
+        background: orange;
+        height: 100%;
+        border: 1px solid black;
+    }
+    #header h2{
+        width: 100%;
+        background: orange;
+        height: 100%;
+        border: 1px solid black;
+        margin-top: 1%;
+    }
+    #articulo{
+        background: lawngreen;
+        height: 14em;
+        border: 1px solid black;
+        width: 90%;
+    }
+    #articulos{   
+        margin: 0 auto;
+        height: 18em;
+        margin-top: 3%;
+        width: 90%;
+        
+        
+        
+    }
+    #articulos ul{
+        display: flex;
+        flex-flow: column;
+        row-gap: 0.5em  ;
+
+    }
+    #articulos ul li{
+        display: flex;
+        width: 106%;
+        margin-left: -40px;
+        height: 5em;
+        background: blue;
+        
+    }
+    #articulos2{
+        width: 95%;
+        margin: 0 auto;
+    }
+    #articulos2 ul{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+     
+        gap: 4% ;
+    }
+    #articulos2 ul li{  
+        border: 1px solid black;
+        width: 90%;
+        height: 6em;
+        background: silver;
+        margin-left: 3%;
+        
+    }
+}
+@media only screen and (max-width:320px) and (min-width:0px) {
+    
+    *{
+        margin: 0;
+        list-style: none;
+    }
+    body{
+        max-width: 320px;
+        background: red;
+    }
+    
+    #header{
+        display: flex;
+        flex-direction: column;
+        width: 90%;
+        height: 6em;
+        margin-top: 5%;
+        
+    }
+    #header h1{
+        width: 100%;
+        background: orange;
+        height: 100%;
+        border: 1px solid black;
+    }
+    #header h2{
+        width: 100%;
+        background: orange;
+        height: 100%;
+        border: 1px solid black;
+        margin-top: 1%;
+    }
+    #articulo{
+        background: lawngreen;
+        height: 6em;
+        border: 1px solid black;
+        width: 90%;
+    }
+    #articulos{   
+        width: 101%;
+        height: 18em;
+        margin: 0 auto;
+        margin-left: -3%;
+        margin-top: 3%;
+    }
+    #articulos ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5em  ;
+    }
+    #articulos ul li{
+        display: flex;
+        border: 1px solid black;
+        width: 100%;
+        background: blue;
+        height: 5em;
+        
+
+    }
+    #articulos2{
+        
+        width: 100%;
+        margin-left: -1%;
+       
+    }
+    #articulos2 ul{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.5em ;
+    }
+    #articulos2 ul li{  
+        border: 1px solid black;
+        width: 95%;
+        height: 6em;
+        background: silver;
+        margin-left: -2%;
+        
+    }
+    
+}

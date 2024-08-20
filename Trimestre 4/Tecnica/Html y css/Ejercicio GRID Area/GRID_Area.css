@@ -1,0 +1,324 @@
+*{
+    text-decoration: none;
+    margin: 0;
+    list-style: none;
+}
+body
+{
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    background: conic-gradient(at 0% 30%,black 10%,gray 30%,gold 50%);
+    margin-top: 5%;
+}
+#encabezado{
+    display: grid;
+    grid-template-rows: repeat(2,1fr);
+    border: 3px solid white;
+    width: 90%;
+    height: 20%;
+    margin: 0 auto;
+    background: linear-gradient(45deg,gold, gray,gold, gray,gold, gray);
+    border-radius: 15px;
+}
+#Titulo_encabezado{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    height: 90%;
+    color: white;
+    
+}
+#menu{
+    display: grid;
+    width: 95%;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: -0.8%;
+}
+#menu ul{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    border: 2px solid white;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(90deg,gold,gray,gold,gray);
+    border-radius: 10px;
+}
+#menu a{
+    color: white;
+}
+#menu a:hover{
+    color: black;
+}
+
+#contenido-todo{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-areas:  "barra contenido"
+                "barra contenido";
+    width: 90%;
+    height: 230%;
+    margin: 0 auto;
+    margin-top: 1.2%;
+    
+}
+#barra_lateral{
+    grid-area: barra;
+    display: grid;
+    grid-template-rows:10% 60% 30%;
+    border:3px solid white;
+    width: 95%;
+    border-radius: 15px;
+    background: linear-gradient(45deg,gold, gray,gold, gray,gold, gray);
+}
+#barra_lateral h3{
+    display: grid;
+    width: 95%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 150%;
+    color: white;
+}
+#contenido_barra{
+    display: grid;
+    grid-template-rows: 33% 33% 33%;
+    border: 2px solid white;
+    width: 85%;
+    margin: 0 auto;
+    border-radius: 15px;
+    background: conic-gradient(from 45deg, black, gold 50%, gray 85%, black);
+}
+#contenido_barra ul li{
+    display: grid;   
+    margin-left: 0%;
+    height: 90%;
+    align-items: center;
+}
+#contenido_barra a{
+    color: white;
+    font-size: 200%;
+}
+#contenido_barra a:hover{
+    color: black;
+}
+#articulo{
+    display: grid;
+    border: 2px solid white;
+    width: 85%;
+    margin: 0 auto;
+    margin-top: 7%;
+    height: 70%;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    border-radius: 15px ;
+    color: white;
+    background: conic-gradient(at 0% 30%,black 10%,gray 30%,gold 50%);
+}
+#contenido{
+    display: grid;
+    grid-template-rows: 5% 10% 37% 37% 11% ;
+    grid-area: contenido;
+    border:3px solid white;
+    border-radius: 15px;
+    width: 99%;
+    margin-left: 1%;
+    background: linear-gradient(45deg,gold, gray,gold, gray,gold, gray);
+}
+#contenido h1{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    height: 100%;
+    font-size: 180%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+#titulo_contenido{
+    display: grid;
+    width: 90%;
+    height: 90%;
+    margin: 0 auto;
+    border: 2px solid white;
+    font-size: 180%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    color: white;
+    background: conic-gradient(from 45deg, black, gold 50%, gray 85%, black);
+}
+#articul{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4,1fr);
+    grid-template-areas: "t t "
+                            "ta ta"
+                            "a  c"
+                            "p p";
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 1%;
+    color: white;
+    background: conic-gradient(from 45deg, black, gold 50%, gray 85%, black);
+}
+#articul h3{
+    grid-area: t;
+    display: grid;
+    width: 80%;
+    height: 60%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+#articulo_contenido{
+    grid-area: ta;
+    display: grid;
+    border: 2px solid white;
+    border-radius: 50px;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    margin-top: -4%;
+    align-items: center;
+    justify-content: center;
+    font-size: 150%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+}
+#contenido_articulo{
+    grid-area: a;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: grid;
+    width: 110%;
+    margin: 0 auto;
+    margin-left: 10%;
+    height: 80%;
+    margin-top: -5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+}
+#contenido_articulo2{
+    grid-area: c;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: grid;
+    width: 60%;
+    margin: 0 auto;
+    margin-right: 10%;
+    height: 80%;
+    margin-top: -5%;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+}
+#parrafo_articulo{
+    grid-area: p;
+    border: 2px solid white;
+    border-radius: 50px;
+    display: grid;
+    width: 90%;
+    margin: auto;
+    height: 80%;
+    margin-top: -2%;
+    justify-content: center;
+    align-items: center;
+    font-size: 160%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+}
+#articulo2{
+    display: grid;
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 2%;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    background: conic-gradient(from 45deg, black, gold 50%, gray 85%, black);
+}
+#articulo2 h4{
+    display: grid;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+}
+
+#titulo_articulo2{
+    border: 2px solid white;
+    border-radius: 50px;
+    display: grid;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    margin-top: -3%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+}
+#contenido_articulo3{
+    border: 2px solid white;
+    border-radius: 50px;
+    display: grid;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    margin-top: -3%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+}
+#parrafo_articulo2{
+    border: 2px solid white;
+    border-radius: 50px;
+    display: grid;
+    width: 90%;
+    height: 80%;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    font-size: 160%;
+    margin-top: -3%;
+    background: linear-gradient(110deg,black,gold,gray 100%);
+    
+}
+
+#pie_contenido{
+    display: grid;
+    border: 2px solid white;
+    border-radius: 15px;
+    width: 90%;
+    height: 60%;
+    margin: 0 auto;
+    margin-top: 2%;
+    font-size: 160%;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background: conic-gradient(from 45deg, black, gold 50%, gray 85%, black);
+
+}
+#pie_general{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    border: 3px solid white;
+    border-radius: 15px;
+    height: 15%;
+    width: 90%;    
+    margin: 0 auto;
+    margin-top: 2%;
+    background: conic-gradient(at 0% 30%,black 10%,gray 30%,gold 50%);
+}
+
