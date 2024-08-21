@@ -1,0 +1,419 @@
+@media only screen and (max-width:1024px){
+    *{
+        text-decoration: none;
+    }
+body{
+    width: 1024px;
+    margin: 0 auto;
+}
+#general{
+    width: 95%;
+    background: rgb(148, 40, 148);
+    border: 1px solid black;
+    margin: 2%;
+   
+}
+#titulo{
+    grid-template-rows: 22% 78%;
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 140%;
+}
+#titulo h2{
+    display: grid;
+    color: white;
+    margin: 0;  
+    font-size: 140%;
+}
+
+#titulo h1{
+    display: grid;
+    color: gold;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+}
+#menu{
+    background: purple  ;  
+    
+}
+#menu ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: left;
+    padding: 1%;
+  
+
+}
+#menu a{
+
+    color: white;
+}
+#camisas{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows:4% repeat(6,1fr);
+    grid-template-areas: "t t t"
+                       ;
+    
+}
+#camisas h3{
+    grid-area: t;
+    display: flex;
+    color: gold;
+    justify-content: center;
+    font-family:sans-serif;
+   
+
+}
+#caja{
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 95%;
+    gap: 4%;
+    background: purple;
+    margin-left: 4%;
+
+
+}
+#caja h6{
+    
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+#caja h4{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin-bottom: -10%;
+}
+#caja img{
+
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -7%;
+}
+#cajag{
+    display: flex;
+    flex-direction: column;
+
+    width: 90%;
+    height: 95%;
+    gap: 4%;
+    background: purple;
+    margin-left: 4%;
+
+
+}
+#cajag img{
+
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -7%;
+}
+#pie_pagina{
+    display: flex;
+    background-color: purple;
+    width: 100%;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 5%;
+    
+}
+#cajag1{
+    background: transparent;
+}
+}
+@media only screen and (max-width:768px ){ */
+    *{
+        text-decoration: none;
+    }
+body{
+    width: 768px;
+    margin: 0 auto;
+}
+#general{
+    width: 95%;
+    background: rgb(148, 40, 148);
+    border: 1px solid black;
+    margin: 2%;
+    height: 4050px;
+   
+}
+#titulo{
+    grid-template-rows: 22% 78%;
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 140%;
+}
+#titulo h2{
+    display: grid;
+    color: white;
+    margin: 0;  
+    font-size: 140%;
+}
+
+#titulo h1{
+    display: grid;
+    color: gold;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+}
+#menu{
+    background: purple  ;  
+    
+}
+#menu ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: left;
+    padding: 1%;
+  
+
+}
+#menu a{
+
+    color: white;
+}
+#camisas{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-template-rows: 1% repeat(7,1fr);
+    grid-template-areas: "t t";
+    gap: 1%;
+}
+#camisas h3{
+    grid-area: t;
+    display: flex;
+    color: gold;
+    justify-content: center;
+    font-family:sans-serif;
+   
+
+}
+#caja{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 95%;
+    gap: 4%;
+    background: purple;
+    margin-left: 4%;
+}
+#caja h6{
+    
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+#caja h4{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin-bottom: -10%;
+}
+#caja img{
+
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -7%;
+}
+#cajag{
+    grid-column: span 2;
+    width: 43%;
+    height: 95%;
+    gap: 4%;
+    background: purple;
+    margin-left: 4%;
+    
+
+
+}
+#cajag img{
+
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -7%;
+}
+#pie_pagina{
+    display: flex;
+    background-color: purple;
+    width: 100%;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 49%;
+    
+}
+#cajag1{
+    display: none;
+}
+#cajao{
+    display: none;
+}
+}
+@media only screen and (max-width:320px ){ */
+    *{
+        text-decoration: none;
+    }
+body{
+    width: 320px;
+    margin: 0 auto;
+}
+#general{
+    width: 95%;
+    background: red(148, 40, 148);
+    border: 1px solid black;
+    margin: 2%;
+    height: 5520px;
+    background-color:rgb(148, 40, 148);
+   
+}
+#titulo{
+    grid-template-rows: 22% 78%;
+    width: 40%;
+    display: grid;
+    justify-content: center;
+    margin: 0 auto;
+    font-size: 140%;
+}
+#titulo h2{
+    display: grid;
+    color: white;
+    margin: 0;  
+    font-size: 140%;
+}
+
+#titulo h1{
+    display: grid;
+    color: gold;
+    justify-content: center;
+    align-items: start;
+    margin: 0;
+}
+#menu{
+    background: purple  ;  
+    
+}
+#menu ul {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    list-style: none;
+    width: 20%;
+    margin: 0 auto;
+    justify-content: left;
+    padding: 1%;
+  
+
+}
+#menu a{
+
+    color: white;
+}
+#camisas{
+    display:flex;
+    flex-direction: column;
+    grid-template-rows: 1% repeat(7,1fr);
+    grid-template-areas: "t t";
+    gap: 1%;
+}
+#camisas h3{
+    grid-area: t;
+    display: flex;
+    color: gold;
+    justify-content: center;
+    font-family:sans-serif;
+   
+
+}
+#caja{
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    height: 95%;
+    gap: 4%;
+    background: purple;
+    margin-left: 4%;
+    margin-top: 5%;
+    
+}
+#caja h6{
+    
+    display: flex;
+    color: white;
+    justify-content: center;
+}
+#caja h4{
+    display: flex;
+    justify-content: center;
+    color: gold;
+    margin-bottom: -10%;
+}
+#caja img{
+
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: -7%;
+}
+#cajag{
+    grid-column: span 2;
+    width: 43%;
+    height: 95%;
+    gap: 4%;
+    margin-left: 4%;
+    
+
+
+}
+#cajag img{
+
+    border: 1px solid black;
+    display: flex;
+    margin: 0 auto;
+    margin-bottom: 7%;
+    margin-top: 15%;
+    height: 300px;
+}
+#pie_pagina{
+    display: flex;
+    background-color: purple;
+    width: 100%;
+    color: white;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-top: 15%;
+    
+}
+#cajag1{
+    display: none;
+}
+
+}  
